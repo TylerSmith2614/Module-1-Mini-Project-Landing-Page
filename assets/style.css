@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* position: relative; */
+}
+
+header {
+    background-color: aquamarine;
+    padding: 50px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    /* display: flex;
+    justify-content: end; */
+    position: absolute;
+    right: 20px;
+}
+
+a {
+    margin: 0 10px;
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.greeting {
+    background-color: blue;
+    padding-top: 100px;
+}
+
+#contact {
+    height: 90vh;
+    margin-top:1000px;
+
+}
